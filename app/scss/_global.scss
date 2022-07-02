@@ -12,7 +12,9 @@ a {
 
 .title {
   @extend %ProximaNova-Light;
+  text-align: center;
   font-size: 50px;
+  margin-bottom: 50px;
   line-height: 110%;
 }
 
