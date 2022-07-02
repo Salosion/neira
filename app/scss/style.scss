@@ -280,7 +280,7 @@
   &__title {
     margin-bottom: 50px;
   }
-  &__item-text{
+  &__item-text {
     text-align: center;
     margin: 0 auto;
     max-width: 360px;
@@ -288,6 +288,43 @@
   }
   &__item-img {
     margin: 0 auto;
+  }
+}
+
+.footer {
+  padding: 72px 0 42px;
+  background: rgba(193, 211, 255, 0.07);
+  &__top {
+    display: flex;
+    margin-bottom: 60px;
+  }
+  &__top-info {
+    max-width: 500px;
+    margin-right: 105px;
+  }
+  &__top-item,
+  &__top-link {
+    @extend %ProximaNova-Regular;
+    font-size: 12px;
+    line-height: 150%;
+    color: #A0A0AA
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__bottom-links {
+    display: flex;
+  }
+  &__bottom-link,
+  &__bottom-copy{
+    @extend %ProximaNova-Light;
+    font-size: 14px;
+    line-height: 150%;
+    color: #A0A0AA;
+    & + .footer__bottom-link {
+      margin-left: 55px;
+    }
   }
 }
 @import 'media';
