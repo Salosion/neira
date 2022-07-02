@@ -274,4 +274,20 @@
     align-items: center;
   }
 }
+
+.certificates {
+  margin-bottom: 100px;
+  &__title {
+    margin-bottom: 50px;
+  }
+  &__item-text{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 360px;
+    margin-bottom: 65px;
+  }
+  &__item-img {
+    margin: 0 auto;
+  }
+}
 @import 'media';
