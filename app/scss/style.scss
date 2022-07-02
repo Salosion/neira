@@ -70,6 +70,10 @@
 
 .info {
   margin-bottom: 100px;
+  &__title {
+    margin-bottom: 50px;
+    line-height: 150%;
+  }
   &__descr {
     max-width: 630px;
     margin: 0 auto;
@@ -106,7 +110,7 @@
     margin: 0 auto;
     margin-top: 50px;
   }
-  &__item-img{
+  &__item-img {
     margin: 0 auto;
     margin-bottom: 15px;
   }
@@ -118,6 +122,130 @@
     padding: 36px 43px 36px 48px;
     background: rgba(193, 211, 255, 0.07);
     border-radius: 15px;
+  }
+}
+
+.technology {
+  background-image: url('../images/decor.jpg');
+  background-repeat: no-repeat;
+  background-position: 100px 20px;
+  margin-bottom: 100px;
+  &__title {
+    line-height: 150%;
+  }
+  &__item {
+    margin-top: 50px;
+  }
+  &__item-title {
+    @extend %ProximaNova-Light;
+    font-size: 40px;
+    line-height: 150%;
+    margin-bottom: 10px;
+  }
+}
+
+.credits {
+  margin-bottom: 100px;
+  &__items {
+    margin-bottom: 100px;
+  }
+  &__item {
+    margin-top: 50px;
+    text-align: center;
+  }
+  &__item-img {
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  &__info {
+    margin-bottom: 50px;
+  }
+  &__info-item {
+    text-align: center;
+    margin-top: 50px;
+  }
+  &__info-year {
+    @extend %ProximaNova-Light;
+    font-size: 40px;
+    line-height: 150%;
+  }
+  &__text {
+    text-align: center;
+    margin-bottom: 100px;
+    span {
+      color: #A0A0AA;
+    }
+  }
+  &__content-title {
+    margin-bottom: 50px;
+  }
+  &__content-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  &__content-num {
+    @extend %ProximaNova-Light;
+    font-size: 128px;
+    line-height: 150%;
+    color: #2B2D33;
+  }
+  &__content-text {
+    display: block;
+  }
+}
+
+.form {
+  margin-bottom: 100px;
+  &__inner {
+    padding: 30px 48px 46px 54px;
+    background: rgba(193, 211, 255, 0.07);
+    border-radius: 15px;
+  }
+  &__title {
+    @extend %ProximaNova-Light;
+    font-size: 40px;
+    line-height: 150%;
+  }
+  &__text {
+    max-width: 465px;
+    font-size: 20px;
+    margin-bottom: 75px;
+  }
+  &__box {
+    display: flex;
+    margin-bottom: 25px;
+  }
+  &__input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid #A0A0AA;
+    max-width: 490px;
+    width: 100%;
+    font-size: 18px;
+    color: $text;
+    &::placeholder {
+      @extend %ProximaNova-Thin;
+      font-size: 20px;
+      line-height: 135%;
+      margin-bottom: 11px;
+      color: #A0A0AA;
+    }
+  }
+  &__button {
+    @extend %ProximaNova-Light;
+    color: #000;
+    font-size: 18px;
+    padding: 12px 40px;
+    border-radius: 5px;
+    margin-left: 35px;
+  }
+  &__link {
+    max-width: 680px;
+    font-size: 14px;
+    color: #A0A0AA;
+    display: block;
+    line-height: 135%;
   }
 }
 
