@@ -1,3 +1,23 @@
+body {
+  @extend %ProximaNova-Thin;
+  font-size: 22px;
+  line-height: 135%;
+  color: $text;
+  background-color: #000;
+}
+
+a {
+  color: $text;
+}
+
+.title {
+  @extend %ProximaNova-Light;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 50px;
+  line-height: 110%;
+}
+
 .container {
   max-width: 1280px;
   padding: 0 15px;
