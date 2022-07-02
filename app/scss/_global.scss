@@ -10,16 +10,25 @@ a {
   color: $text;
 }
 
+button {
+  cursor: pointer;
+}
+
 .title {
   @extend %ProximaNova-Light;
   text-align: center;
   font-size: 50px;
-  margin-bottom: 50px;
   line-height: 110%;
 }
 
 .container {
   max-width: 1280px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container-content {
+  max-width: 850px;
   padding: 0 15px;
   margin: 0 auto;
 }
