@@ -4,4 +4,68 @@
 @import 'libs';
 @import 'global';
 
+.header {
+  margin-bottom: 225px;
+  &__inner {
+    display: flex;
+    align-items: center;
+    padding: 32px 0;
+  }
+  &__phone {
+    @extend %ProximaNova-Light;
+    margin-left: auto;
+    font-size: 19px;
+    line-height: 23px;
+  }
+  &__content {
+    display: flex;
+    align-items: center;
+  }
+  &__content-info {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+  &__content-title {
+    @extend %ProximaNova-Light;
+    font-size: 128px;
+    line-height: 156px;
+    margin-bottom: 9px;
+  }
+  &__content-subtitle {
+    @extend %ProximaNova-Thin;
+    font-size: 22px;
+    line-height: 150%;
+    max-width: 460px;
+  }
+  &__content-socials {
+    margin-left: auto;
+  }
+  &__content-link {
+    & + .header__content-link {
+      display: block;
+      margin-top: 30px;
+    }
+  }
+}
+
+.logo {
+  margin-right: 52px;
+}
+
+.menu {
+  &__list {
+    display: flex;
+  }
+  &__list-item {
+    & + .menu__list-item {
+      margin-left: 30px;
+    }
+  }
+  &__list-link {
+    @extend %ProximaNova-Light;
+    font-size: 19px;
+    line-height: 173%;
+  }
+}
+
 @import 'media';

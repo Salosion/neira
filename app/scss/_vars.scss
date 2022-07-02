@@ -1,5 +1,4 @@
-// $deffault: #243f4d;
-// $title: #191919;
+$text: #fff;
 
 // %checkbox-hidden {
 //   width: 1px;
@@ -9,7 +8,23 @@
 //   position: absolute;
 // }
 
-// %dmsans-700 {
-//   font-family: 'DMSans-Bold', sans-serif;
-//   font-weight: 700;
-// }
+%ProximaNova-Semibold {
+  font-family: 'ProximaNova-Semibold', sans-serif;
+  font-weight: 700;
+}
+
+%ProximaNova-Regular {
+  font-family: 'ProximaNova-Regular', sans-serif;
+  font-weight: 400;
+}
+
+%ProximaNova-Light {
+  font-family: 'ProximaNova-Light', sans-serif;
+  font-weight: 300;
+}
+
+%ProximaNova-Thin {
+  font-family: 'ProximaNova-Thin', sans-serif;
+  font-weight: 100;
+}
+

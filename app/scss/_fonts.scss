@@ -3,8 +3,8 @@
   font-weight: 600;
   font-style: normal;
   src: local('ProximaNova-Semibold'),
-    url('../ProximaNova-Semibold.woff2') format('woff2'),
-    url('../ProximaNova-Semibold.woff') format('woff');
+    url('./ProximaNova-Semibold.woff2') format('woff2'),
+    url('./ProximaNova-Semibold.woff') format('woff');
   font-display: swap;
 }
 
@@ -13,8 +13,8 @@
   font-weight: 400;
   font-style: normal;
   src: local('ProximaNova-Regular'),
-    url('../ProximaNova-Regular.woff2') format('woff2'),
-    url('../ProximaNova-Regular.woff') format('woff');
+    url('./ProximaNova-Regular.woff2') format('woff2'),
+    url('./ProximaNova-Regular.woff') format('woff');
   font-display: swap;
 }
 
@@ -23,8 +23,8 @@
   font-weight: 300;
   font-style: normal;
   src: local('ProximaNova-Light'),
-    url('../ProximaNova-Light.woff2') format('woff2'),
-    url('../ProximaNova-Light.woff') format('woff');
+    url('../fonts/ProximaNova-Light.woff2') format('woff2'),
+    url('../fonts/ProximaNova-Light.woff') format('woff');
   font-display: swap;
 }
 
@@ -33,7 +33,7 @@
   font-weight: 100;
   font-style: normal;
   src: local('ProximaNova-Thin'),
-    url('../ProximaNova-Thin.woff2') format('woff2'),
-    url('../ProximaNova-Thin.woff') format('woff');
+    url('../fonts/ProximaNova-Thin.woff2') format('woff2'),
+    url('../fonts/ProximaNova-Thin.woff') format('woff');
   font-display: swap;
 }
