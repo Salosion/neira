@@ -22,6 +22,7 @@
     align-items: center;
   }
   &__content-info {
+    // z-index: 2;
     padding-left: 65px;
     padding-right: 65px;
   }
@@ -37,7 +38,16 @@
     line-height: 150%;
     max-width: 460px;
   }
+  // &__content-decor {
+    // animation: spin 5s linear 0s infinite;
+  // }
+  // @keyframes spin {
+  //   100% {
+  //     transform: rotate(360deg);
+  //   }
+  // }
   &__content-socials {
+    // z-index: 2;
     margin-left: auto;
   }
   &__content-link {
@@ -249,4 +259,19 @@
   }
 }
 
+
+
+
+
+.partners {
+  margin-bottom: 100px;
+  &__title {
+    margin-bottom: 100px;
+  }
+  &__items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
 @import 'media';
