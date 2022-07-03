@@ -291,6 +291,42 @@
   }
 }
 
+.accordion {
+  margin-bottom: 100px;
+  &__item {
+    position: relative;
+    margin-top: 50px;
+    border-bottom: 0.5px solid #A0A0AA;
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  &__item-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    &:checked ~ .accordion__item-text {
+      @extend %ProximaNova-Thin;
+      display: block;
+      margin-top: 20px;
+      font-size: 20px;
+      padding-bottom: 50px;
+      max-width: 790px;
+    }
+  }
+  &__item-label {
+    @extend %ProximaNova-Light;
+    max-width: 800px;
+    cursor: pointer;
+    display: block;
+    margin-bottom: 20px;
+  }
+  &__item-text {
+    display: none;
+  }
+}
+
 .footer {
   padding: 72px 0 42px;
   background: rgba(193, 211, 255, 0.07);
