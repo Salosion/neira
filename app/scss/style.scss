@@ -9,7 +9,13 @@
   &__inner {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding: 32px 0;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    width: 65.7%;
+    background-color: #000;
   }
   &__phone {
     @extend %ProximaNova-Light;
@@ -22,7 +28,6 @@
     align-items: center;
   }
   &__content-info {
-    // z-index: 2;
     padding-left: 65px;
     padding-right: 65px;
   }
@@ -38,6 +43,9 @@
     line-height: 150%;
     max-width: 460px;
   }
+  &__content-decor {
+    margin-top: 60px;
+  }
   // &__content-decor {
     // animation: spin 5s linear 0s infinite;
   // }
@@ -47,7 +55,6 @@
   //   }
   // }
   &__content-socials {
-    // z-index: 2;
     margin-left: auto;
   }
   &__content-link {
@@ -132,6 +139,92 @@
     padding: 36px 43px 36px 48px;
     background: rgba(193, 211, 255, 0.07);
     border-radius: 15px;
+  }
+}
+
+.about {
+  margin-bottom: 150px;
+  &__title {
+    line-height: 150%;
+    margin-bottom: 50px;
+  }
+  &__descr {
+    margin: 0 auto;
+    max-width: 560px;
+    text-align: center;
+    margin-bottom: 135px;
+  }
+  &__content {
+    display: grid;
+    // grid-gap: 35px 0;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 100px;
+    position: relative;
+  }
+  &__content-img--two{
+    position: absolute;
+    left: 45%;
+  }
+  &__content-img--four {
+    position: absolute;
+    top: 33%;
+    left: 11%;
+  }
+  &__content-img--six {
+    margin-left: auto;
+    margin-top: 35px;
+  }
+  &__content-img--five {
+    z-index: -1;
+    position: absolute;
+    top: 51%;
+    left: 39%;
+  }
+  &__content-img{
+    border-radius: 5px;
+  }
+  &__text {
+    max-width: 610px;
+    margin-left: 105px;
+  }
+  &__box {
+    margin-bottom: 100px;
+  }
+  &__text--right {
+    text-align: right;
+    margin: 0 105px 0 auto;
+    margin-bottom: 50px;
+  }
+  &__team {
+    margin: 0 0 150px 105px;
+  }
+  &__team-item {
+    display: flex;
+  }
+  &__team-item--right {
+    justify-content: flex-end;
+    margin-right: 95px;
+  }
+  &__team-info {
+    margin-left: 25px;
+  }
+  &__team-name {
+    @extend %ProximaNova-Light;
+    line-height: 130%;
+    font-size: 30px;
+    max-width: 221px;
+  }
+  &__team-position {
+    color: #A0A0AA;
+  }
+  &__info-items {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__info-num {
+    @extend %ProximaNova-Light;
+    line-height: 135%;
+    font-size: 40px;
   }
 }
 

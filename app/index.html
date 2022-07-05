@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header class="header">
+  <header class="header" id="neira">
     <div class="container">
       <div class="header__inner">
         <a class="logo" href="https://vsezaimyonline.ru">
@@ -19,19 +19,19 @@
         <nav class="menu">
           <ul class="menu__list">
             <li class="menu__list-item">
-              <a class="menu__list-link" href="#">Нейра</a>
+              <a class="menu__list-link" href="#neira">Нейра</a>
             </li>
             <li class="menu__list-item">
-              <a class="menu__list-link" href="#">Команда</a>
+              <a class="menu__list-link" href="#about">Команда</a>
             </li>
             <li class="menu__list-item">
-              <a class="menu__list-link" href="#">Технологии</a>
+              <a class="menu__list-link" href="#technology">Технологии</a>
             </li>
             <li class="menu__list-item">
-              <a class="menu__list-link" href="#">Тестирование</a>
+              <a class="menu__list-link" href="#testing">Тестирование</a>
             </li>
             <li class="menu__list-item">
-              <a class="menu__list-link" href="#">Для банков</a>
+              <a class="menu__list-link" href="#credits">Для банков</a>
             </li>
           </ul>
         </nav>
@@ -118,7 +118,101 @@
         </p>
       </div>
     </section>
-    <section class="technology">
+    <section class="about" id="about">
+      <div class="container">
+        <h3 class="about__title title">О нас</h3>
+        <p class="about__descr">
+          Мы создаем автоматическую систему подбора кредитов
+          в России, заботясь о наших пользователях
+        </p>
+        <div class="about__content">
+          <div class="about__content-item">
+            <img class="about__content-img" src="images/about/team-1.png" alt="фото">
+          </div>
+          <div class="about__content-item">
+            <img class="about__content-img about__content-img--two" src="images/about/team-2.png" alt="фото">
+          </div>
+          <div class="about__content-item">
+            <img class="about__content-img" src="images/about/team-3.png" alt="фото">
+          </div>
+          <div class="about__content-item">
+            <img class="about__content-img about__content-img--four" src="images/about/team-4.png" alt="фото">
+          </div>
+          <div class="about__content-item">
+            <img class="about__content-img about__content-img--five" src="images/about/team-5.png" alt="фото">
+          </div>
+          <div class="about__content-item">
+            <img class="about__content-img about__content-img--six" src="images/about/team-6.png" alt="фото">
+          </div>
+        </div>
+        <div class="about__box">
+          <p class="about__text about__text--right">
+            В ее создании принимает участие вся команда ВЗО, студенты
+            и работники математического центра НГУ
+          </p>
+          <p class="about__text">
+            А также Павел Юрьевич Чеботарев, доктор<br>
+            физико-математических наук, заведующий лабораторией Математических методов анализа многоагентных систем
+            ИПУ им. В. А. Трапезникова РАН в Москве
+          </p>
+        </div>
+        <div class="about__team">
+          <div class="about__team-item about__team-item--right">
+            <img class="about__team-img" src="images/icons/avatar-1.svg" alt="Виталий Виноградов">
+            <div class="about__team-info">
+              <p class="about__team-name">
+                Виталий
+                Виноградов
+              </p>
+              <p class="about__team-position">
+                Основатель сервиса ВЗО
+              </p>
+            </div>
+          </div>
+          <div class="about__team-item">
+            <img class="about__team-img" src="images/icons/avatar-2.svg" alt="Александр Шитик">
+            <div class="about__team-info">
+              <p class="about__team-name">
+                Александр
+                Шитик
+              </p>
+              <p class="about__team-position">
+                Data Science
+              </p>
+            </div>
+          </div>
+          <div class="about__team-item about__team-item--right">
+            <img class="about__team-img" src="images/icons/avatar-3.svg" alt="Павел Юрьевич Чеботарев">
+            <div class="about__team-info">
+              <p class="about__team-name">
+                Павел Юрьевич
+                Чеботарев
+              </p>
+              <p class="about__team-position">
+                Доктор физико-математических наук
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="about__info">
+          <div class="about__info-items">
+            <div class="about__info-item">
+              <p class="about__info-num">6 лет</p>
+              <p class="about__info-text">на финансовом рынке</p>
+            </div>
+            <div class="about__info-item">
+              <p class="about__info-num">2 миллиона</p>
+              <p class="about__info-text">посетителей в месяц</p>
+            </div>
+            <div class="about__info-item">
+              <p class="about__info-num">100+</p>
+              <p class="about__info-text">партнеров</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="technology" id="technology">
       <div class="container-content">
         <h3 class="technology__title title">Технологии создания Нейры</h3>
         <div class="technology__items">
@@ -238,7 +332,7 @@
         </div>
       </div>
     </section>
-    <form class="form">
+    <form class="form" id="testing">
       <div class="container-content">
         <div class="form__inner">
           <h3 class="form__title">Раннее тестирование</h3>
@@ -258,7 +352,7 @@
         </div>
       </div>
     </form>
-    <section class="benefits">
+    <section class="benefits" id="credits">
       <div class="container-content">
         <div class="benefits__item">
           <h3 class="benefits__title title">Для банков</h3>
@@ -325,7 +419,8 @@
             с ее помощью, часть средств направляется на посадку деревьев.
           </p>
           <p class="benefits__info-text">
-            Зеленые растения поглощают углерод, который вызывает эффект парниковых газов. Таким образом, взаимодействуя с Нейрой, вы
+            Зеленые растения поглощают углерод, который вызывает эффект парниковых газов. Таким образом, взаимодействуя
+            с Нейрой, вы
             сокращаете углеродный след и участвуете в мировой программе по предотвращению
             глобального потепления
           </p>
