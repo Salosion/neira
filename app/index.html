@@ -10,13 +10,17 @@
 </head>
 
 <body>
-  <header class="header" id="neira">
+  <!-- Липкий header -->
+  <div class="header__wrapper">
     <div class="container">
       <div class="header__inner">
         <a class="logo" href="https://vsezaimyonline.ru">
           <img class="logo__img" src="images/icons/logo.svg" alt="логотип">
         </a>
         <nav class="menu">
+          <button class="menu__btn">
+            <img src="images/icons/menu-btn.svg" alt="меню">
+          </button>
           <ul class="menu__list">
             <li class="menu__list-item">
               <a class="menu__list-link" href="#neira">Нейра</a>
@@ -35,8 +39,14 @@
             </li>
           </ul>
         </nav>
-        <a class="header__phone" href="tel:88007073397">8 (800) 707-33-97</a>
+        <div class="header__phone-box">
+          <a class="header__phone" href="tel:88007073397">8 (800) 707-33-97</a>
+        </div>
       </div>
+    </div>
+  </div>
+  <header class="header" id="neira">
+    <div class="container">
       <div class="header__content">
         <div class="header__content-info">
           <h1 class="header__content-title">Нейра</h1>
@@ -118,7 +128,8 @@
         </p>
       </div>
     </section>
-    <section class="about" id="about">
+    
+    <!-- <section class="about" id="about">
       <div class="container">
         <h3 class="about__title title">О нас</h3>
         <p class="about__descr">
@@ -211,7 +222,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <section class="technology" id="technology">
       <div class="container-content">
         <h3 class="technology__title title">Технологии создания Нейры</h3>
@@ -292,7 +303,7 @@
           </div>
         </div>
         <div class="credits__info">
-          <h4 class="title">
+          <h4 class="credits__info-title title">
             Количество выданых кредитов
             и займов 2015 — 2021 годы
           </h4>
@@ -581,4 +592,3 @@
 </body>
 
 </html>
-<!-- certificate -->

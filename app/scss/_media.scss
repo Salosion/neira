@@ -1,0 +1,510 @@
+@media (max-width: 1250px) {
+  .header {
+    margin-bottom: 180px;
+    &__content-title {
+      font-size: 120px;
+    }
+    &__content-subtitle {
+      font-size: 19px;
+    }
+    &__content-decor {
+      width: 45%;
+    }
+    &__content-decor {
+      margin-top: 75px;
+    }
+    &__content-socials {
+      margin-left: 0;
+    }
+  }
+  .technology {
+    &__title {
+      font-size: 40px;
+    }
+    &__item-title {
+      font-size: 30px;
+    }
+  }
+  .credits {
+    .title {
+      font-size: 35px;
+    }
+    &__info-title,
+    &__content-title {
+      font-size: 40px;
+    }
+  }
+  .benefits {
+    &__title,
+    &__item-title {
+      margin-bottom: 20px;
+      font-size: 35px;
+    }
+    &__list {
+      margin: 0 auto;
+    }
+    &__list-item {
+      list-style-type: none;
+      text-align: center;
+    }
+    &__item--bg {
+      background-image: none;
+    }
+    &__info-title {
+      font-size: 35px;
+    }
+    &__info-text {
+      margin-top: 25px;
+    }
+  }
+  .partners {
+    &__title {
+      font-size: 40px;
+      margin-bottom: 50px;
+    }
+  }
+  .certificates {
+    &__title {
+      font-size: 40px;
+    }
+  }
+  .accordion {
+    .title {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (max-width: 1010px) {
+  .header {
+    &__inner {
+      justify-content: space-between;
+    }
+    &__content-decor {
+      display: none;
+    }
+    &__content {
+      padding-top: 150px;
+      justify-content: center;
+    }
+    &__phone-box {
+      display: none;
+    }
+    &__content-title {
+      font-size: 115px;
+      line-height: 125px;
+    }
+    &__content-subtitle {
+      font-size: 22px;
+    }
+  }
+  .menu {
+    &__list {
+      position: absolute;
+      top: 88px;
+      left: 0;
+      right: 0;
+      padding: 15px 0;
+      display: block;
+      background-color: #000;
+      transform: translateX(200%);
+      transition: all .5s;
+      text-align: left;
+      &.menu__list--active {
+        transform: translateX(0);
+      }
+    }
+    &__list-item + .menu__list-item {
+      margin-left: 0;
+    }
+    &__list-link {
+      display: block;
+      padding: 10px 0;
+      margin-left: 20px;
+    }
+    &__btn {
+      display: block;
+    }
+  }
+  .info {
+    &__title {
+      margin-bottom: 30px;
+      font-size: 40px;
+    }
+    &__descr {
+      margin-bottom: 50px;
+    }
+    &__popup-link {
+      font-size: 75px;
+      top: 35%;
+      left: 40%;
+    }
+  }
+  .specification {
+    margin-bottom: 60px;
+    .title {
+      font-size: 40px;
+    }
+    &__item-text {
+      font-size: 20px;
+    }
+    &__items {
+      margin-bottom: 65px;
+    }
+    &__descr {
+      font-size: 18px;
+    }
+  }
+  .technology {
+    &__title {
+      font-size: 35px;
+    }
+    &__items {
+      text-align: center;
+    }
+    &__item-title {
+      font-size: 25px;
+    }
+    &__item-text {
+      font-size: 20px;
+    }
+  }
+  .credits {
+    &__info-year {
+      font-size: 35px;
+    }
+    &__info-sum {
+      font-size: 20px;
+    }
+    &__content-num {
+      font-size: 120px;
+    }
+  }
+  .accordion {
+    .title {
+      font-size: 35px;
+    }
+  }
+  .footer {
+    &__top {
+      display: none;
+    }
+    &__bottom-link+.footer__bottom-link {
+      margin-left: 0;
+    }
+  }
+  .footer {
+    padding: 42px 0;
+    &__top-list,
+    &__top-certificates {
+      display: none;
+    }
+    &__top {
+      display: none;
+    }
+    &__bottom {
+      display: block;
+    }
+    &__bottom-links {
+      flex-direction: column;
+    }
+    &__bottom-link {
+      margin-bottom: 20px;
+      font-size: 18px;
+    }
+    &__bottom-link+.footer__bottom-link {
+      margin-left: 0;
+    }
+    &__bottom-copy {
+      font-size: 18px;
+    }
+  }
+}
+
+@media (max-width: 680px) {
+  .header {
+    margin-bottom: 100px;
+    &__content-info {
+      text-align: center;
+      padding: 0;
+    }
+    &__content-title {
+      font-size: 80px;
+      line-height: 110%;
+    }
+    &__content-subtitle {
+      font-size: 19px;
+    }
+    &__content-socials {
+      display: none;
+    }
+  }
+  .info {
+    margin-bottom: 50px;
+    &__tilte {
+      margin-bottom: 25px;
+      font-size: 35px;
+    }
+    &__descr {
+      font-size: 17px;
+      margin-bottom: 35px;
+    }
+    &__popup-link {
+      font-size: 55px;
+      top: 35%;
+      left: 34%;
+    }
+  }
+  .credits {
+    margin-bottom: 50px;
+    &__item {
+      margin-top: 35px;
+    }
+    &__info-item {
+      margin-top: 35px;
+    }
+    &__text {
+      margin-bottom: 50px;
+    }
+    &__content-title {
+      margin-bottom: 30px;
+    }
+    &__content-inner {
+      display: block;
+    }
+    &__content-num {
+      font-size: 96px;
+      text-align: center;
+    }
+    &__content-text {
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+  .form {
+    margin-bottom: 50px;
+    &__inner {
+      display: flex;
+      flex-direction: column;
+    }
+    &__title {
+      font-size: 29px;
+    }
+    &__text {
+      font-size: 19px;
+      margin-bottom: 35px;
+    }
+    &__box {
+      display: block;
+    }
+    &__input {
+      margin-bottom: 20px;
+    }
+    &__button {
+      margin-left: 0;
+      width: 100%;
+    }
+  }
+  .benefits {
+    margin-bottom: 50px;
+    &__title,
+    &__item-title {
+      font-size: 30px;
+    }
+    &__info-title {
+      font-size: 30px;
+    }
+  }
+  .certificates {
+    margin-bottom: 50px;
+    &__title {
+      font-size: 35px;
+    }
+    &__item-text {
+      margin-bottom: 35px;
+    }
+  }
+  .accordion {
+    &__item-label {
+      font-size: 20px;
+    }
+    &__item-text {
+      font-size: 18px;
+    }
+  }
+  .footer {
+    padding: 42px 0;
+    &__top-list,
+    &__top-certificates {
+      display: none;
+    }
+    &__top {
+      display: none;
+    }
+    &__bottom {
+      display: block;
+    }
+    &__bottom-links {
+      flex-direction: column;
+    }
+    &__bottom-link {
+      margin-bottom: 20px;
+    }
+    &__bottom-link+.footer__bottom-link {
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .header {
+    &__content-title {
+      font-size: 50px;
+    }
+    &__content-subtitle {
+      font-size: 18px;
+    }
+  }
+  .info {
+    &__title{
+      font-size: 35px;
+    }
+    &__descr {
+      font-size: 16px;
+    }
+    &__popup-link {
+      font-size: 40px;
+      left: 33%;
+    }
+  }
+  .specification {
+    .title {
+      font-size: 35px;
+    }
+    &__item-text {
+      font-size: 18px;
+    }
+    &__items {
+      margin-bottom: 35px;
+    }
+    &__descr {
+      font-size: 16px;
+      padding: 20px 28px 20px 32px;
+    }
+  }
+  .technology {
+    margin-bottom: 50px;
+    &__title {
+      font-size: 30px;
+    }
+    &__item-title {
+      font-size: 20px;
+    }
+    &__item-text {
+      font-size: 18px;
+    }
+  }
+  .credits {
+    margin-bottom: 50px;
+    &__item {
+      margin-top: 35px;
+    }
+    .title {
+      font-size: 30px;
+    }
+    &__info-item {
+      margin-top: 35px;
+    }
+    &__info-year {
+      font-size: 25px;
+    }
+    &__info-sum {
+      font-size: 18px;
+    }
+    &__text {
+      margin-bottom: 35px;
+      font-size: 22px;
+    }
+
+    &__content-title {
+      margin-bottom: 30px;
+    }
+
+    &__content-inner {
+      display: block;
+    }
+
+    &__content-num {
+      font-size: 96px;
+      text-align: center;
+    }
+
+    &__content-text {
+      font-size: 19px;
+      text-align: center;
+    }
+    .accordion {
+      &__item {
+        margin-top: 40px;
+      }
+    }
+  }
+  .form {
+    margin-bottom: 50px;
+    &__title {
+      font-size: 19px;
+    }
+    &__text {
+      font-size: 15px;
+      margin-bottom: 15px;
+    }
+    &__link {
+      font-size: 12px;
+    }
+  }
+  .benefits {
+    &__descr,
+    &__list {
+      font-size: 20px;
+    }
+    &__info-title {
+      font-size: 24px;
+    }
+    &__info-text {
+      font-size: 18px;
+    }
+  }
+  .partners {
+    &__title {
+      font-size: 35px;
+    }
+    &__items {
+      display: block;
+    }
+    &__item {
+      margin-bottom: 25px;
+    }
+    &__item-img {
+      margin: 0 auto;
+    }
+  }
+  .certificates {
+    &__item-text {
+      font-size: 18px;
+    }
+  }
+  .accordion {
+    &__item {
+      margin-top: 35px;
+    }
+    &__item-label {
+      font-size: 17px;
+    }
+    &__item-text {
+      font-size: 16px;
+    }
+  }
+  .footer {
+    padding: 6px 0;
+  }
+}
